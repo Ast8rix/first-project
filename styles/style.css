@@ -1,4 +1,37 @@
+.page {
+    min-width: 1100px;
+    max-width: 1600px;
+    font-family: 'Helvetica Neue', 'Arial', sans-serif;
+}
 .header {
     min-height: 600px;
     max-height: 756px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+}
+.logo_place_header {
+    margin-left: 64px;
+    margin-top: 30px;
+    width: 228px;
+    height: 32px;
+    position: absolute;
+    order: -1;
+}
+.header__title {
+    margin-left: 64px;
+    width: 730px;
+}
+.header__subtitle {
+    position: absolute;
+    margin-left: 64px;
+    margin-bottom: 30px;
+    width: 388px;
+    align-items: right;
+}
+.header__main-illustration {
+    position: absolute;
+    width: 768px;
+    height: 608px;
+    justify-content: right;
 }
