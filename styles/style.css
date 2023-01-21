@@ -9,11 +9,11 @@
   display: flex;
   min-height: 600px;
   max-height: 756px;
-  height: 756px; /* если не поставить , то будет минимальная высота и элементы поедут*/
+  height: 756px;
   width: 100%;
   margin: auto;
   position: relative;
-  overflow: hidden; /* лучше изучить это свойство*/
+  overflow: hidden;
   align-items: center;
 }
 .logo {
@@ -81,7 +81,6 @@
 }
 .two-columns {
   display: flex;
-  flex-direction: row; /* он автоматически встает горизантально*/
   justify-content: space-between;
   width: 80%;
   margin: 0 auto;
@@ -107,52 +106,12 @@
   font-weight: normal;
   margin: 30px 0 0;
   line-height: 34px;
-  /*height: 34px; - текст залезает друга на друга - кривое тз.*/
 }
 .two-columns__paragraph_span-accent {
   line-height: 34px;
   font-size: 24px;
   font-weight: 600;
 }
-/*
-Вот это моё первичное решение, как я понял тз.
-.description {
-  display: flex;
-  margin: 500px auto;
-  justify-content: space-between;
-  position: relative;
-  bottom: 0;
-}
-.two-columns {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  max-width: 784px;
-  width: 80%;
-  margin-left: 475px;
-}
-.two-columns__brief {
-  display: flex;
-  align-items: center;
-  width: 175px;
-  height: 1.2;
-  font-size: 18px;
-  font-weight: normal;
-  color: #2f80ed;
-}
-.two-columns__main-text {
-  height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-}
-.two-columns__paragraph {
-  justify-content: space-around;
-}
-.span-accent {
-  height: 34px;
-  font-size: 24px;
-  font-weight: 600;
-}*/
 .digits {
   max-width: 1100px;
   min-width: 250px;
@@ -334,37 +293,26 @@
   font-size: 18px;
   font-weight: 600;
   margin: 0 20 0 0px;
-  color: #FFF;
+  color: #fff;
 }
 .footer__column-links {
-    padding: 0;
-    margin-bottom: 20px;
+  padding: 0;
+  margin-bottom: 20px;
 }
 .footer__list-item {
-    display: flex;
-    flex-direction: column;
-}
-.footer__column-link {
-    line-height: 30px;
-    font-size: 18px;
-    font-weight: normal;
-    color: #FFF;
-}
-.footer__column_content-social {
-    margin-right: 50px;
-    margin-top: 30px;
-  }
-  .footer_social-icon {
-    margin-right: 10px;
-  }
-/*.footer__column_content-info {
-  color: white;
   display: flex;
   flex-direction: column;
-  position: absolute;
-  top: 50px;
-  right: 400px;
-  height: 30px;
+}
+.footer__column-link {
+  line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-}*/
+  color: #fff;
+}
+.footer__column_content-social {
+  margin-right: 50px;
+  margin-top: 30px;
+}
+.footer_social-icon {
+  margin-right: 10px;
+}
