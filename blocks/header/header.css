@@ -1,12 +1,12 @@
 .header {
-    background-color: #f2f2f2;
-    display: flex;
-    min-height: 600px;
-    max-height: 756px;
-    height: 756px;
-    width: 100%;
-    margin: auto;
-    position: relative; /*блоки с конкретным позиционированием нельзя формировать в структуре по бэму, т.к в других проектах его придется менять, потому что он не в станет*/
-    overflow: hidden;
-    align-items: center;
-  }
+  background-color: #f2f2f2;
+  display: flex;
+  min-height: 600px;
+  max-height: 756px;
+  height: 756px;
+  width: 100%;
+  margin: auto;
+  position: relative; /*блоки с конкретным позиционированием нельзя формировать в структуре по бэму, т.к в других проектах его придется менять, потому что он не в станет*/
+  overflow: hidden;
+  align-items: center;
+}

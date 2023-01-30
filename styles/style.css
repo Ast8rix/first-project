@@ -176,14 +176,12 @@
   justify-content: center;
   position: relative;
   top: 50px;
+  list-style-type: none; /* убирает маркер в списке*/
 }
 .video__iframe {
   width: 516px;
   height: 316px;
   margin-right: 20px;
-}
-.video__iframe:last-of-type {
-  margin-right: 0;
 }
 .oakley {
   background-color: #f2f2f2;
@@ -338,6 +336,7 @@
   width: 620px;
   height: 608px;
   margin-right: 48px;
+  object-fit: cover; /* свойсто чтобы не растягивалась картинка для jpg */
 }
 .khan__buy-link {
   line-height: 42px;

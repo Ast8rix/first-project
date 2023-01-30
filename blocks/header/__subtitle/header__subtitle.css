@@ -1,10 +1,10 @@
 .header__subtitle {
-    position: absolute; /*блоки с конкретным позиционированием нельзя формировать в структуре по бэму, т.к в других проектах его придется менять, потому что он не в станет*/
-    left: 64px;
-    bottom: 30px;
-    width: 388px;
-    line-height: 25px;
-    font-size: 18px;
-    font-weight: normal;
-    z-index: 3;
-  }
+  position: absolute; /*блоки с конкретным позиционированием нельзя формировать в структуре по бэму, т.к в других проектах его придется менять, потому что он не в станет*/
+  left: 64px;
+  bottom: 30px;
+  width: 388px;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  z-index: 3;
+}

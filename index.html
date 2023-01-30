@@ -6,11 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="keywords" content="HTML5, CSS, JavaScript" />
     <meta name="author" content="Ast8rix" />
-    <link rel="stylesheet" href="./styles/normalize.css" />
-    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./stylebem.css" />
     <title>first-project</title>
   </head>
-  <body class="page">
+  <body>
+    <div class="page">
     <header class="header">
       <a href="#"><img src="./images/logo_place_header.svg" class="logo logo_place_header"></a>
       <h1 class="header__title">Научиться учиться</h1>
@@ -22,8 +22,8 @@
       <div class="header_square-pic"></div>
     </header>
     <main class="content">
-    <section class="description">
-      <div class="two-columns">
+    <section class="description" aria-label="Блок со статьей"> 
+      <article class="two-columns"> <!--Добавил новый тег артикль, и чтобы не руагался валидатор, добавил предполагаемый заголовок в секцию aria-label -->
           <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">Ни в школе, ни в институте нас не учат тому, как правильно изучать материал.
@@ -34,7 +34,7 @@
             <p class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим.
            Эти же техники применяются на примере обучения в Практикуме.</p>
         </div>
-      </div>
+      </article>
       </div>
     </section>
     <section class="techniques" id="techniques">
@@ -72,22 +72,22 @@
     <section class="video">
       <h2 class="section__title">Видео нa TED</h2>
       <p class="section__subtitle">Для тех, кто любит прокрастинировать</p>
-      <div class="video__iframes">
+      <ul class="video__iframes">
+        <li>
         <iframe
         class="video__iframe"
-        src="https://www.youtube.com/embed/J_89IMS5gJQ"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        src="https://www.youtube.com/embed/5MgBikgcWnY"
         allowfullscreen
       ></iframe>
+    </li>
+    <li>
       <iframe
         class="video__iframe"
-        src="https://www.youtube.com/embed/0u3bccaRmmg"
-        frameborder="0"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        src="https://www.youtube.com/embed/arj7oStGLkU"
         allowfullscreen
       ></iframe>
-      </div>
+    </li>
+  </ul>
     </section>
     <section class="oakley">
       <div class="two-columns">
@@ -242,7 +242,7 @@
   </div>
 </main>
     <footer class="footer">
-      <div class="footer__columns">
+      <nav class="footer__columns">
       <div class="footer__column footer__column_content-copyright">
         <a href="#"><img src="./images/logo_place_footer.svg" class="logo logo_place_footer"></a>
         <p class="footer__author">&copyAst8rix</p>
@@ -275,5 +275,6 @@
   </div>
     </div>
     </footer>
+  </div>
   </body>
 </html>

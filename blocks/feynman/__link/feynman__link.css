@@ -1,11 +1,14 @@
 .feynman__link {
-    position: absolute;/*блоки с конкретным позиционированием нельзя формировать в структуре по бэму, т.к в других проектах его придется менять, потому что он не в станет*/
-    top: 50%;
-    right: 0;
-    line-height: 51px;
-    font-size: 36px;
-    font-weight: normal;
-    text-decoration: none;
-    color: #2f80ed;
-    margin-right: 48px;
-  }
+  position: absolute; /*блоки с конкретным позиционированием нельзя формировать в структуре по бэму, т.к в других проектах его придется менять, потому что он не в станет*/
+  top: 50%;
+  right: 0;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  text-decoration: none;
+  color: #2f80ed;
+  margin-right: 48px;
+}
+.feynman__link:hover {
+  opacity: 0.6;
+}

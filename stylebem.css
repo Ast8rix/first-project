@@ -1,11 +1,17 @@
+/*сначала нормалайз подключаем, потом шрифты, а потом все остальное*/
+@import url(/vendor/normalize.css);
+/*Keyframes*/
+@import url(./blocks/keyframes/keyframes.css);
 /*Тело*/
 @import url(./blocks/page/page.css);
 /*Голова в теле*/
 @import url(./blocks/header/header.css);
-@import url(./blocks/header/logo_place_header/logo_place_header.css);
+@import url(./blocks/logo_place/logo.css);
+@import url(./blocks/logo_place/logo_place_header.css);
 @import url(./blocks/header/__title/header__title.css);
 @import url(/blocks/header/__subtitle/header__subtitle.css);
 @import url(./blocks/header/__link/header__link.css);
+@import url(./blocks/header/__link/header__link-hover.css);
 @import url(./blocks/header/__main-illustration/header____main-illustration.css);
 @import url(./blocks/header/_square-pic/header_square-pic.css);
 /*блок description*/
@@ -15,6 +21,24 @@
 @import url(./blocks/description/two-columns/__main-text/two-columns__main-text.css);
 @import url(./blocks/description/two-columns/__paragraph/two-columns__paragraph.css);
 @import url(./blocks/description/two-columns/__paragraph/two-columns__paragraph_span-accent.css);
+/*блок techniques*/
+@import url(./blocks/techniques/techniques.css);
+@import url(./blocks/techniques/cards/cards.css);
+@import url(./blocks/techniques/cards/__item/cards__item.css);
+@import url(./blocks/techniques/cards/__image/cards__image.css);
+@import url(./blocks/techniques/cards/__title/cards__title.css);
+@import url(./blocks/techniques/cards/__description/cards__description.css);
+/*блок video*/
+@import url(./blocks/video/video.css);
+@import url(./blocks/video/__iframes/video__iframes.css);
+@import url(./blocks/video/__iframe/video__iframe.css);
+/*блок Oakley*/
+@import url(./blocks/oakley/oakley.css);
+/*блок feynman*/
+@import url(./blocks/feynman/feynman.css);
+@import url(./blocks/feynman/__title/feynman__title.css);
+@import url(./blocks/feynman/__subtitile/feynman__subtitle.css);
+@import url(./blocks/feynman/__link/feynman__link.css);
 /*блок digits*/
 @import url(./blocks/digits/digits.css);
 @import url(./blocks/digits/section/__title/section__title.css);
@@ -23,11 +47,17 @@
 @import url(./blocks/digits/table/__cell/table__cell.css);
 @import url(./blocks/digits/table/__heading/table__heading.css);
 @import url(./blocks/digits/table/__text/table__text.css);
-/*блок feynman*/
-@import url(./blocks/feynman/feynman.css);
-@import url(./blocks/feynman/__title/feynman__title.css);
-@import url(./blocks/feynman/__subtitile/feynman__subtitle.css);
-@import url(./blocks/feynman/__link/feynman__link.css);
+/*блок khan*/
+@import url(./blocks/khan/khan.css);
+@import url(./blocks/khan/__container/khan__container.css);
+@import url(./blocks/khan/__author/khan__author.css);
+@import url(./blocks/khan/__title/khan__title.css);
+@import url(./blocks/khan/__quote/khan__quote.css);
+@import url(./blocks/khan/__quote/__quote-author/khan__quote-author.css);
+@import url(./blocks/khan/__quote/__quote-author/khan__quote-author-subline.css);
+@import url(./blocks/khan/__book/khan__book-container.css);
+@import url(./blocks/khan/__book/khan__book-pic.css);
+@import url(./blocks/khan/__buy-link/khan__buy-link.css);
 /*блок kaufman*/
 @import url(./blocks/kaufman/kaufman.css);
 @import url(./blocks/kaufman/__triangle/kaufman__triangle.css);
@@ -37,10 +67,18 @@
 @import url(./blocks/kaufman/_theme_dark/table__cell_theme_dark.css);
 @import url(./blocks/kaufman/_theme_dark/table__heading_theme_dark.css);
 @import url(./blocks/kaufman/_theme_dark/table__text_theme_dark.css);
+/*блок resources*/
+@import url(./blocks/resources/resources.css);
+@import url(./blocks/resources/__logo-zone/resources__logo-zone.css);
+@import url(/blocks/resources/__logo-zone/__logo/resources__logo.css);
+@import url(./blocks/resources/__logo-zone/__logo/resources__logo_arzamas.css);
+@import url(/blocks/resources/__logo-zone/__logo/resources__logo_n1.css);
+@import url(./blocks/resources/__logo-zone/__logo/resources__logo_strelka.css);
+@import url(/blocks/resources/__logo-zone/__logo/resources__logo_polka.css);
 /*блок footer*/
 @import url(./blocks/footer/footer.css);
 @import url(./blocks/footer/footer_social-icon.css);
-@import url(./blocks/footer/logo_place_footer.css);
+@import url(./blocks/logo_place/logo_place_footer.css);
 @import url(./blocks/footer/__author/footer__author.css);
 @import url(./blocks/footer/__list/footer__list-item.css);
 @import url(./blocks/footer/__columns/footer__columns.css);

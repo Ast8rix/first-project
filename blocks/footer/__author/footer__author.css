@@ -1,10 +1,10 @@
 .footer__author {
-    margin: 18px 0;
-    color: white;
-    position: absolute;/*блоки с конкретным позиционированием нельзя формировать в структуре по бэму, т.к в других проектах его придется менять, потому что он не в станет*/
-    left: 64px;
-    bottom: 0;
-    line-height: 25px;
-    font-size: 18px;
-    font-weight: normal;
-  }
+  margin: 18px 0;
+  color: white;
+  position: absolute; /*блоки с конкретным позиционированием нельзя формировать в структуре по бэму, т.к в других проектах его придется менять, потому что он не в станет*/
+  left: 64px;
+  bottom: 0;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
