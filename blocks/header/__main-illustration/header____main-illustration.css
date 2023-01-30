@@ -2,7 +2,7 @@
     background-size: cover;
     width: 765px;
     height: 608px;
-    position: absolute;
+    position: absolute; /*блоки с конкретным позиционированием нельзя формировать в структуре по бэму, т.к в других проектах его придется менять, потому что он не в станет*/
     right: 0;
     bottom: 0;
     z-index: 2;

@@ -1,0 +1,9 @@
+.kaufman {
+    position: relative;/*блоки с конкретным позиционированием нельзя формировать в структуре по бэму, т.к в других проектах его придется менять, потому что он не в станет*/
+    overflow: hidden;
+    background-color: #1f1f1f;
+    padding: 90px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }

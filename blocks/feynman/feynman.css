@@ -1,0 +1,14 @@
+.feynman {
+    height: 890px;
+    position: relative;/*блоки с конкретным позиционированием нельзя формировать в структуре по бэму, т.к в других проектах его придется менять, потому что он не в станет*/
+    background-color: #f2f2f2;
+    background-image: url(../images/feynman.png);
+    background-position-x: left;
+    background-position-y: bottom;
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-size: 867px 637px;
+  }

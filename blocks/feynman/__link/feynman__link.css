@@ -1,10 +1,11 @@
-.header_square-pic {
-    background-color: #2f80ed;
-    height: 568px;
-    width: 568px;
+.feynman__link {
     position: absolute;/*блоки с конкретным позиционированием нельзя формировать в структуре по бэму, т.к в других проектах его придется менять, потому что он не в станет*/
-    top: 64px;
+    top: 50%;
     right: 0;
-    z-index: 1;
-    margin: 0;
+    line-height: 51px;
+    font-size: 36px;
+    font-weight: normal;
+    text-decoration: none;
+    color: #2f80ed;
+    margin-right: 48px;
   }

@@ -1,10 +1,10 @@
-.header_square-pic {
-    background-color: #2f80ed;
-    height: 568px;
-    width: 568px;
+.footer__author {
+    margin: 18px 0;
+    color: white;
     position: absolute;/*блоки с конкретным позиционированием нельзя формировать в структуре по бэму, т.к в других проектах его придется менять, потому что он не в станет*/
-    top: 64px;
-    right: 0;
-    z-index: 1;
-    margin: 0;
+    left: 64px;
+    bottom: 0;
+    line-height: 25px;
+    font-size: 18px;
+    font-weight: normal;
   }
